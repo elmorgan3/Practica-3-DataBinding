@@ -82,9 +82,9 @@ Public Class Form1
         oBind = Nothing
 
 
-        oBind = New Binding("Text", dts, "Members.MemberId")
-        TextBoxBuscar.DataBindings.Add(oBind)
-        oBind = Nothing
+        'oBind = New Binding("Text", dts, "Members.MemberId")
+        'TextBoxBuscar.DataBindings.Add(oBind)
+        'oBind = Nothing
 
 
         bmb = BindingContext(dts, "Members")
